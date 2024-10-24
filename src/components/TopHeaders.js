@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
+
 import { useNavigate } from "react-router-dom";
+import "./TopHeaders.css";
 
 // 옵션 바 
 const TopHeader = () => {
-
+// 주석
     const nevi = useNavigate();
     return(
-        <header>
+        <header className="header">
 
             <button onClick={()=>nevi("/HomePage")}>HOME</button>
             <button onClick={()=>nevi("/about")}>ABOUT</button>
@@ -17,4 +18,4 @@ const TopHeader = () => {
         </header>
     )
 }
-export default TopHeader;
+export default TopHeader; 

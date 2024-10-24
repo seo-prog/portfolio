@@ -1,11 +1,16 @@
-
+import './HomePage.css';
 
 const HomePage = () => {
 
     return(
         <>
-        
-        <h2>포트폴리오 ~!</h2>
+        <div className='homepage'>
+        <h4>최서연씌</h4>
+        <img
+        src="../images/myicon.png"
+        alt="Profile"
+       />
+       </div>
 
         </>
     )

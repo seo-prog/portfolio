@@ -1,0 +1,65 @@
+body {
+    font-family: 'Anton', sans-serif; /* 기본 폰트 설정 */
+}
+
+.about-page {
+    background-color: black; /* 배경 색상 */
+    padding: 20px;
+    padding: 20px; /* 상하 여백 */
+    height: 100vh; /* 전체 높이 */
+
+}
+
+.skills-container {
+    display: flex; /* Flexbox로 정렬 */
+    justify-content: center; /* 왼쪽과 오른쪽으로 공간 배치 */
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container div {
+    flex: 1;
+    margin: 0 10px;
+}
+.skills-container>div:first-child{
+    margin-right: 110px;
+}
+
+
+h2{
+    color: white;
+    text-decoration: underline;
+    margin-top: 6%;
+    margin-left:45%;
+}
+
+h3 {
+    color: white; /* 글자 색상 */
+    text-align: center;
+    font-weight: bold; /* 글자 두께를 진하게 */
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    background-color: #f0f0f0; /* 카드 배경색 */
+    border-radius: 12px; /* 둥근 모서리 */
+    margin: 10px;
+    padding: 15px;
+    height: 90px;
+    width: calc(35% - 20px); /* 3열 레이아웃 */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    transition: transform 0.2s; /* 애니메이션 효과 */
+}
+
+li:hover {
+    transform: scale(1.05); /* 호버 시 확대 효과 */
+}
