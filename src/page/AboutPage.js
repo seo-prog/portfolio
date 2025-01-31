@@ -66,7 +66,7 @@ const AboutPage = () => {
                             <span className="tooltip">{descriptions.React}</span>
                         </li>
                         <li className='about-page-li'>
-                            Flutter <TbBrandJavascript />
+                            Flutter .. <TbBrandJavascript />
                             <span className="tooltip">{descriptions.JavaScript}</span>
                         </li>
                         <li className='about-page-li'>
