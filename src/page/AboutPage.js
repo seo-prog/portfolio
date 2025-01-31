@@ -74,12 +74,12 @@ const AboutPage = () => {
                             <span className="tooltip">{descriptions.JavaScript}</span>
                         </li>
                         <li className='about-page-li'>
-                        HTML <TbBrandJavascript />
+                        HTML .. <TbBrandJavascript />
                             <span className="tooltip">{descriptions.JavaScript}</span>
                         </li>
                         <li className='about-page-li'>
                         CSS <TbBrandJavascript />
-                            <span className="tooltip">{descriptions.JavaScript}</span>
+                            <span className="tooltip">{descriptions.JavaScript}</span>...
                         </li>
                     </ul>
                 </div>
