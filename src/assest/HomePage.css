@@ -1,0 +1,91 @@
+/* Overall page styling */
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: white; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: black; /* Light text color */
+    padding: 20px;
+  }
+
+  .home-page-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black; /* Lighter text color for the name */
+    margin-bottom: 10px;
+  }
+  
+  /* Profile image styling */
+  .homepage-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; /* Space between image and text */
+    position: relative;
+    left: 10px; /* Slightly move image to the left */
+  }
+  
+  /* Text container styling */
+  .text-container {
+    text-align: left;
+  }
+  
+
+  /* Speech bubble styling */
+  .intro {
+    font-size: 1.4rem; /* Larger text for better readability */
+    line-height: 1.8;
+    color: #34495e; /* Darker text for the intro */
+    background-color: #ecf0f1; /* Light background for speech bubble */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    position: relative;
+    width: 75%;
+    height: 60%;
+  }
+  
+  /* Creating the speech bubble effect */
+  .intro::after {
+    content: '';
+    position: absolute;
+    bottom: -25px; /* Move the triangle lower */
+    left: 30px; /* Align the triangle with the bubble */
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid #ecf0f1; /* Match the speech bubble color */
+  }
+  
+  /* Optional: Add hover effect to character name */
+  .homepage h4:hover {
+    color: #B5F240; /* Lighter hover effect for the name */
+    cursor: pointer;
+  }
+  
+  .homepage-container {
+    scroll-behavior: smooth;
+  }
+  
+  /* 스크롤 버튼 스타일 */
+  .scroll-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .scroll-button:hover {
+    background-color: #45a049;
+  }
+  
+  

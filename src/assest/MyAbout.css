@@ -1,0 +1,85 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+  background:  #c6ef77; /* Fresh green */
+  border-radius: 30px;
+  clip-path: path("M 48 150 Q 20 300, 100 400 Q 12 500, 100 600 Q 171 700, 385 650 Q 600 700, 800 650 Q 1000 600, 1049 450 Q 1070 300, 1000 200 Q 900 100, 700 85 Q 500 -12, 300 34 Q 69 100, 48 150 Z");
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
+  height: 597px;
+}
+
+.speech-tail {
+  position: absolute;
+  bottom: -30px;
+  left: 120px;
+  width: 80px;
+  height: 60px;
+  background: #B5F240;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+  
+  .myimage1 {
+    width: 329px;
+    height: 355px;
+    border-radius: 42% / 45%;
+    object-fit: cover;
+    margin-right: 64px;
+    margin-left: 58px;
+  }
+  
+  .content {
+    flex: 1; /* 나머지 공간을 차지하도록 설정 */
+  }
+  
+  .title-name {
+    font-size: 37px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 72px;
+  }
+  
+  .sub-title {
+    font-size: 27px;
+    color: grey;
+    font-weight: bold;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+  .just-profile-text {
+    margin: 5px 0;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .just-profile-text-last{
+    margin: 5px 0;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+
+  .my-profile-texts{
+
+  }
+
+  .my-experience-texts{
+    margin-top: 50px;
+  }
+
+  .just-profile-text22{
+    margin: 5px 0;
+    color: grey;
+    margin-bottom: 23px;
+  }
+
+  .about-page-icons{
+    margin-right: 10px;
+  }
+  
